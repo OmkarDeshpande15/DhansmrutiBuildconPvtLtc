@@ -39,6 +39,22 @@ section {
   padding: 5rem 10%;
 }
 
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 ;
+} 
+.logo img {
+    height: 90px;   /* Adjust based on your design */
+    width: auto;    /* Keeps image ratio clean */
+    display: block;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
 .heading {
   margin-bottom: 3rem;
   font-size: 3rem;
@@ -76,7 +92,7 @@ section {
   left: 0;
   right: 0;
   box-shadow: var(--box-shadow);
-  padding: 1.5rem 10%;
+  padding: 0.5rem 1%;
   display: flex;
   align-items: center;
   justify-content: space-between;

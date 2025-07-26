@@ -43,6 +43,10 @@ var swiper = new Swiper(".home-slider", {
      nextEl: ".swiper-button-next",
      prevEl: ".swiper-button-prev",
    },
+   autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
 });
 
 var swiper = new Swiper(".reviews-slider", {
